@@ -11,14 +11,14 @@ ENV TZ=Etc/UTC
 
 RUN mkdir -p /plugin/
 
+# Install dependencies
+RUN apt update
+RUN apt install -y python3 python3-pip curl x11vnc xvfb tzdata jq
+
 # Copy build output
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/main.js -o /plugin/main.js
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/styles.css -o /plugins/styles.css
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/manifest.json -o /plugins/manifest.json
-
-# Install dependencies
-RUN apt update
-RUN apt install -y python3 python3-pip curl x11vnc xvfb tzdata jq
 
 # Download the Obsidian package
 RUN curl -L "https://github.com/obsidianmd/obsidian-releases/releases/download/v${OBSIDIAN_VERSION}/obsidian_${OBSIDIAN_VERSION}_amd64.deb" -o obsidian.deb
