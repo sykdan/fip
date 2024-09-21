@@ -5,7 +5,8 @@ COPY . /app
 WORKDIR /app
 
 # install dependencies
-RUN npm install
+RUN npm init -y
+RUN npm i file-type minifier-terser mime minisearch rss upath
 
 # build the app
 RUN npm run build
