@@ -17,7 +17,7 @@ RUN apt install -y python3 python3-pip curl x11vnc xvfb tzdata jq
 
 # Install Obsidian
 RUN curl -L "https://github.com/obsidianmd/obsidian-releases/releases/download/v${OBSIDIAN_VERSION}/obsidian_${OBSIDIAN_VERSION}_amd64.deb" -o obsidian.deb
-RUN apt install -y ./obsidian.deb
+RUN apt install -y ./obsidian.deb -f
 
 # Copy build output
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/main.js -o /plugin/main.js
