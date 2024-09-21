@@ -1,17 +1,7 @@
-FROM node:8-alpine AS Build
+FROM ubuntu:20.04 AS Run
 
-# copy the assets and source code
 COPY . /app
 WORKDIR /app
-
-# install dependencies
-RUN npm init -y
-RUN npm i file-type html-minifier-terser mime minisearch rss upath
-
-# build the app
-RUN npm run build
-
-FROM ubuntu:20.04 AS Run
 
 # Set image parameters
 ARG OBSIDIAN_VERSION=1.6.7
@@ -33,9 +23,9 @@ RUN pip3 install electron-inject
 RUN apt install -y ./obsidian.deb
 
 # Copy build output
-COPY --from=Build /app/main.js /plugin/main.js
-COPY --from=Build /app/styles.css /plugin/styles.css
-COPY --from=Build /app/manifest.json /plugin/manifest.json
+RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/main.js -o /plugin/main.js
+RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/styles.css -o /plugins/styles.css
+RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/manifest.json -o /plugins/manifest.json
 
 # Copy the inject scripts
 COPY docker/inject-enable.js /inject-enable.js
