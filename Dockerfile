@@ -1,4 +1,4 @@
-FROM node:16-alpine AS Build
+FROM node:8-alpine AS Build
 
 # copy the assets and source code
 COPY . /app
