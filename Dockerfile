@@ -6,7 +6,7 @@ WORKDIR /app
 
 # install dependencies
 RUN npm init -y
-RUN npm i file-type minifier-terser mime minisearch rss upath
+RUN npm i file-type html-minifier-terser mime minisearch rss upath
 
 # build the app
 RUN npm run build
