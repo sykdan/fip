@@ -1,4 +1,4 @@
-FROM ubuntu:24.04 AS Run
+FROM ubuntu:22.04 AS Run
 
 COPY . /app
 WORKDIR /app
