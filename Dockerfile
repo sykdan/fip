@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 AS Run
+FROM ubuntu:24.04 AS Run
 
 COPY . /app
 WORKDIR /app
@@ -15,19 +15,17 @@ RUN mkdir -p /plugin/
 RUN apt update
 RUN apt install -y python3 python3-pip curl x11vnc xvfb tzdata jq
 
+# Install Obsidian
+RUN curl -L "https://github.com/obsidianmd/obsidian-releases/releases/download/v${OBSIDIAN_VERSION}/obsidian_${OBSIDIAN_VERSION}_amd64.deb" -o obsidian.deb
+RUN apt install -y ./obsidian.deb
+
 # Copy build output
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/main.js -o /plugin/main.js
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/styles.css -o /plugin/styles.css
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/manifest.json -o /plugin/manifest.json
 
-# Download the Obsidian package
-RUN curl -L "https://github.com/obsidianmd/obsidian-releases/releases/download/v${OBSIDIAN_VERSION}/obsidian_${OBSIDIAN_VERSION}_amd64.deb" -o obsidian.deb
-
 # Install patcher
 RUN pip3 install electron-inject
-
-# Install Obsidian
-RUN apt install -y ./obsidian.deb
 
 # Copy the inject scripts
 COPY docker/inject-enable.js /inject-enable.js
