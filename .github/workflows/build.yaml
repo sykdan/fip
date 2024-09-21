@@ -33,6 +33,6 @@ jobs:
         with:
           platforms: linux/arm64,linux/amd64
           push: true
-          tags: sykdan/fip:latest , sykdan/fip:${{ steps.get_version.outputs.tag_name }}
+          tags: sykdan/fip:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
