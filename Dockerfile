@@ -9,6 +9,13 @@ ARG DEBIAN_FRONTEND=noninteractive
 VOLUME [ "/vault", "/output", "/config.json" ]
 ENV TZ=Etc/UTC
 
+RUN mkdir -p /plugin/
+
+# Copy build output
+RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/main.js -o /plugin/main.js
+RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/styles.css -o /plugins/styles.css
+RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/manifest.json -o /plugins/manifest.json
+
 # Install dependencies
 RUN apt update
 RUN apt install -y python3 python3-pip curl x11vnc xvfb tzdata jq
@@ -21,11 +28,6 @@ RUN pip3 install electron-inject
 
 # Install Obsidian
 RUN apt install -y ./obsidian.deb
-
-# Copy build output
-RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/main.js -o /plugin/main.js
-RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/styles.css -o /plugins/styles.css
-RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/manifest.json -o /plugins/manifest.json
 
 # Copy the inject scripts
 COPY docker/inject-enable.js /inject-enable.js
