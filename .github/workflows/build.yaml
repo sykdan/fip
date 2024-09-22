@@ -2,7 +2,7 @@ name: Build Webpage
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -20,14 +20,11 @@ jobs:
         run: |
           set +e
           mkdir -p ./.output
-
-          docker run --rm -v .:/vault -v ./.output:/output KosmosisDire/obsidian-webpage-export:1.8.01
-
+          docker run --rm -v .:/vault -v ./.output:/output spartacus04/obsidian-webpage-export:latest
           if [ $? -eq 137 ]; then
             exit 0
             echo "output=./.output" >> $GITHUB_OUTPUT
           fi
-
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
