@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Test
-        uses: KosmosisDire/obsidian-webpage-export@latest
+        uses: KosmosisDire/obsidian-webpage-export@master
