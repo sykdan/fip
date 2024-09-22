@@ -1,3 +1,5 @@
 {
-  "showRibbon": true
+  "promptDelete": false,
+  "attachmentFolderPath": "data",
+  "alwaysUpdateLinks": true
 }
