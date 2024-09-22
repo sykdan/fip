@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0624d03eac97bb9c",
+        "id": "72a2ba7cbc888557",
         "type": "tabs",
         "children": [
           {
-            "id": "9d800fd6bc0d1e7a",
+            "id": "dffcd387666ae312",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "55bcaf48db80aece",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
@@ -138,10 +138,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -149,8 +149,10 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "9d800fd6bc0d1e7a",
+  "active": "dffcd387666ae312",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Test.md",
     "Introduzione al corso.md",
     "index.md",
     "temp/2024-09-16.md",
@@ -158,7 +160,6 @@
     "Equazioni differenziali/Equazioni differenziali ordinarie.md",
     "temp/2024-09-17.md",
     "Equazioni differenziali/EDO del primo ordine",
-    "Untitled.md",
     "Equazioni differenziali",
     "temp",
     "Teoria dei circuiti/Bipoli/Connessione di bipoli.md",
