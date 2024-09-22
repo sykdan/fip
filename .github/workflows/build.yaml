@@ -21,7 +21,7 @@ jobs:
           set +e
           mkdir -p ./.output
 
-          docker run --rm -v .:/vault -v ./.output:/output spartacus04/obsidian-webpage-export:latest
+          docker run --rm -v .:/vault -v ./.output:/output KosmosisDire/obsidian-webpage-export:1.8.01
 
           if [ $? -eq 137 ]; then
             exit 0
