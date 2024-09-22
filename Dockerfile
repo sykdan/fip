@@ -12,8 +12,8 @@ ENV TZ=Etc/UTC
 RUN mkdir -p /plugin/
 
 # Install dependencies
-RUN apt update
-RUN apt install -y python3 python3-pip curl x11vnc xvfb tzdata jq
+RUN apt update > /dev/null
+RUN apt install -y python3 python3-pip curl x11vnc xvfb tzdata jq > /dev/null
 
 # Install Obsidian
 RUN curl -L "https://github.com/obsidianmd/obsidian-releases/releases/download/v${OBSIDIAN_VERSION}/obsidian_${OBSIDIAN_VERSION}_amd64.deb" -o obsidian.deb
@@ -25,7 +25,7 @@ RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/dow
 RUN curl -L https://github.com/KosmosisDire/obsidian-webpage-export/releases/download/latest/manifest.json -o /plugin/manifest.json
 
 # Install patcher
-RUN pip3 install electron-inject
+RUN pip3 install electron-inject > /dev/null
 
 # Copy the inject scripts
 COPY docker/inject-enable.js /inject-enable.js
