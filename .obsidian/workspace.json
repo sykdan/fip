@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "72a2ba7cbc888557",
+        "id": "13f227272711e2ae",
         "type": "tabs",
         "children": [
           {
-            "id": "dffcd387666ae312",
+            "id": "3c52bf41ef4ede9a",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -72,6 +72,20 @@
     "type": "split",
     "children": [
       {
+        "id": "4843e2b6f18d8208",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72401825453e7e42",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "c11338efe4e8839d",
         "type": "tabs",
         "children": [
@@ -129,12 +143,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,13 +160,34 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "markdown-table-editor:Open Markdown Table Editor": false
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dffcd387666ae312",
+  "active": "a587ef63d4790ddf",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "BI-TZP/Úvod.md",
+    "BI-TZP/Proud.md",
+    "BI-TZP/Napětí.md",
+    "BI-TZP/Ideální vodič.md",
+    "BI-TZP/Prvky elektrických obvodů.md",
+    "BI-TZP/img/Pasted image 20240923172516.png",
+    "BI-TZP/img/Ideální vodič.png",
+    "BI-TZP/img/Moorův zákon.png",
+    "BI-TZP/img",
+    "BI-TZP/img/Prvky značení.png",
+    "BI-PA1/Algoritmus.md",
+    "BI-TZP/img/Prvky vzorečky.png",
+    "BI-TZP/img/Pasted image 20240923173211.png",
+    "BI-TZP/img/Pasted image 20240923171819.png",
+    "BI-TZP/Kirchhoffův zákon.md",
+    "BI-TZP/Parazitní kapacita.md",
+    "BI-UOS/Untitled.md",
+    "BI-LA1/Untitled.md",
+    "BI-GIT/Untitled.md",
+    "BI-DML/Untitled.md",
     "Test.md",
+    "Untitled.canvas",
     "Introduzione al corso.md",
     "index.md",
     "temp/2024-09-16.md",
@@ -168,34 +203,14 @@
     "Teoria dei circuiti/Metodo delle prove semplici.md",
     "Teoria dei circuiti/N-poli.md",
     "Teoria dei circuiti/Potenza ed energia elettrica.md",
-    "Teoria dei circuiti/Principio di sovrapposizione degli effetti.md",
-    "Teoria dei circuiti/Risoluzione di circuiti.md",
-    "Teoria dei circuiti/Teorema di esistenza e unicità della soluzione.md",
-    "Teoria dei circuiti/Teoria dei circuiti.md",
-    "Elettrostatica/Fondamenti di elettrostatica.md",
-    "Elettrostatica/Materiale conduttore.md",
-    "Elettrostatica/Flusso di un campo vettoriale.md",
-    "Elettrostatica/Potenziale e tensione elettrica.md",
-    "Elettrostatica/Principio di conservazione della carica.md",
-    "Componenti dinamici/Componenti dinamici.md",
-    "Bipoli compositi/Amplificatore operazionale ideale.md",
-    "Bipoli compositi/Collegamento di doppi bipoli.md",
     "data/Pasted image 20240902165354.png",
     "data/Pasted image 20240902165330.png",
     "data/Pasted image 20240902165224.png",
-    "data/Pasted image 20240902165202.png",
     "Componenti dinamici",
-    "data/Pasted image 20240902164742.png",
-    "data/Pasted image 20240902164403.png",
-    "data/Pasted image 20240902164322.png",
-    "data/Pasted image 20240902164157.png",
-    "data/Pasted image 20240902163846.png",
-    "data/Pasted image 20240902163313.png",
     "Bipoli compositi",
     "Teoria dei circuiti/Bipoli",
     "Teoria dei circuiti",
     "data",
-    "Elettrostatica",
-    "old"
+    "Elettrostatica"
   ]
 }

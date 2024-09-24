@@ -1,0 +1,3 @@
+- **nulový odpor** - při libovolné délce a libovolném proudu
+	- -> nulový úbytek napětí 
+	- ![[Ideální vodič.png]]

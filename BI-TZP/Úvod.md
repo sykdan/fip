@@ -1,0 +1,16 @@
+- většina počítačů funguje na základu Von Neumannova počítače - ALU, paměť, řadič...
+- ALU:
+	- Posuvy
+	- Sčítačka
+	- Násobička
+	- AND/OR/NAND/...
+		- tyto se realizují **elektronicky**
+		- ...ale jde to třeba i vodou, mechanicky
+- předmět se bude zaobývat elektrotechnikou
+	- konstrukce číslicových obvodů
+	- elektrické obvody
+	- parazitní kapacita - na každém hradlu
+		- + odpor = zpoždění signálu
+	- 4 GHz počítač - perioda 250 pikosekund - 7.5 cm rychlostí světla
+	- ![[Moorův zákon.png]]
+	- 

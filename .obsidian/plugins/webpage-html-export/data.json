@@ -7,11 +7,9 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "/output",
+    "exportPath": "/home/volt/Documents/FIT/.output",
     "filesToExport": [
-      "Equazioni differenziali",
-      "index.md",
-      "Introduzione al corso.md"
+      "all"
     ],
     "addBodyClasses": true,
     "addMathjaxStyles": true,

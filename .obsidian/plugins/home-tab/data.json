@@ -13,7 +13,7 @@
   "fontColorType": "default",
   "fontWeight": 600,
   "maxResults": 5,
-  "showStarredFiles": false,
+  "showbookmarkedFiles": true,
   "showRecentFiles": true,
   "maxRecentFiles": 5,
   "storeRecentFile": true,
@@ -24,14 +24,33 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Test.md",
-      "timestamp": 1727037768776
+      "filepath": "BI-TZP/Úvod.md",
+      "timestamp": 1727167509658
+    },
+    {
+      "filepath": "BI-TZP/Proud.md",
+      "timestamp": 1727167507244
+    },
+    {
+      "filepath": "BI-TZP/Napětí.md",
+      "timestamp": 1727167506426
+    },
+    {
+      "filepath": "BI-TZP/Ideální vodič.md",
+      "timestamp": 1727167505018
+    },
+    {
+      "filepath": "BI-TZP/Prvky elektrických obvodů.md",
+      "timestamp": 1727167498115
     }
   ],
-  "starredFileStore": [],
+  "bookmarkedFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
   "newTabOnStart": true,
   "closePreviousSessionTabs": true,
-  "omnisearch": false
+  "omnisearch": false,
+  "showOmnisearchExcerpt": true,
+  "showStarredFiles": false,
+  "starredFileStore": []
 }

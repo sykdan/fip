@@ -1,0 +1,14 @@
+- = posloupnost operací, která dokáže vyřešit nějaký problém
+	- **deterministický** - tvořen jednotlivými příkazy
+	- **univerzální** - funguje pro všechny vstupy
+	- **konečný** - po nějaké době skončí
+- vstup: instance problému
+- výstup: výsledek algoritmu
+- **složitost**
+	- časová
+	- paměťová
+- jak popsat algoritmus:
+	- přirozený jazyk
+	- flowchart
+	- pseudokód
+	- programovací jazyk
