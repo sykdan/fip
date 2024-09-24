@@ -1,0 +1,2 @@
+- Logická ekvivalence - pro všechna ohodnocení jsou pravdivostní hodnoty ekvivalentní
+- Logický důsledek - pro formule E a F, pro každé E = 1 je i F = 1

@@ -11,8 +11,22 @@
             "id": "480c113719cc4df7",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BI-DML/Přednášky/Logická ekvivalence, logický důsledek.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ece20ad02c7e161",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "BI-DML/Obrázky/Pasted image 20240924151639.png"
+              }
             }
           }
         ]
@@ -44,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "principio di equivalenza",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BI-DML/Přednášky/Logická ekvivalence, logický důsledek.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BI-DML/Přednášky/Logická ekvivalence, logický důsledek.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BI-DML/Přednášky/Logická ekvivalence, logický důsledek.md"
+              }
             }
           },
           {
@@ -165,33 +183,42 @@
   },
   "active": "480c113719cc4df7",
   "lastOpenFiles": [
-    "BI-UOS/Přednášky/Shell.md",
-    "BI-UOS/Přednášky/Unix.md",
-    "BI-UOS/Předmět.md",
+    "BI-DML/Obrázky/Pasted image 20240924151639.png",
+    "BI-DML/Přednášky/Logická ekvivalence, logický důsledek.md",
+    "BI-DML/Přednášky/Tautologie, kontradikce, splnitelnost.md",
     "FIT Bakalářské Studium.md",
-    "BI-UOS/Untitled.md",
-    "BI-TZP/Obrázky/Ideální vodič.png",
-    "BI-TZP/img/Untitled",
-    "BI-UOS/Přednášky",
-    "BI-PA1/Přednášky",
+    "BI-DML/Obrázky/Pasted image 20240924145330.png",
+    "BI-DML/Přednášky/Logické spojky (operace).md",
+    "BI-DML/Přednášky/Výroková logika.md",
+    "BI-DML/Obrázky/Pasted image 20240924144926.png",
+    "BI-DML/Obrázky/Pasted image 20240924144842.png",
+    "BI-DML/Obrázky",
+    "BI-DML/Obrázky/Pasted image 20240924144419.png",
+    "BI-DML/Obrázky/Pasted image 20240924144402.png",
+    "BI-DML/Předmět.md",
+    "BI-DML/Přednášky",
     "BI-TZP/Přednášky/Úvod.md",
-    "BI-TZP/Přednášky",
-    "BI-LA1/Untitled.md",
-    "BI-GIT/Untitled.md",
-    "BI-DML/Untitled.md",
     "BI-TZP/Přednášky/Proud.md",
     "BI-TZP/Přednášky/Ideální vodič.md",
     "BI-TZP/Přednášky/Prvky elektrických obvodů.md",
     "BI-PA1/Přednášky/Algoritmus.md",
     "BI-TZP/Přednášky/Napětí.md",
+    "BI-UOS/Předmět.md",
+    "BI-UOS/Přednášky/Unix.md",
+    "BI-UOS/Přednášky/Shell.md",
+    "BI-UOS/Untitled.md",
+    "BI-TZP/Obrázky/Ideální vodič.png",
+    "BI-TZP/img/Untitled",
+    "BI-UOS/Přednášky",
+    "BI-PA1/Přednášky",
+    "BI-TZP/Přednášky",
+    "BI-LA1/Untitled.md",
+    "BI-GIT/Untitled.md",
     "Test.md",
     "BI-TZP/Obrázky/Pasted image 20240923172516.png",
     "BI-TZP/Obrázky/Moorův zákon.png",
     "BI-TZP/Obrázky",
     "BI-TZP/Obrázky/Prvky značení.png",
-    "BI-TZP/Obrázky/Prvky vzorečky.png",
-    "BI-TZP/Obrázky/Pasted image 20240923173211.png",
-    "BI-TZP/Obrázky/Pasted image 20240923171819.png",
     "BI-TZP/Kirchhoffův zákon.md",
     "BI-TZP/Parazitní kapacita.md",
     "Untitled.canvas",
@@ -199,18 +226,8 @@
     "temp/2024-09-16.md",
     "Equazioni differenziali/EDO del primo ordine.md",
     "Equazioni differenziali/Equazioni differenziali ordinarie.md",
-    "temp/2024-09-17.md",
     "Equazioni differenziali/EDO del primo ordine",
     "Equazioni differenziali",
-    "temp",
-    "Teoria dei circuiti/Bipoli/Connessione di bipoli.md",
-    "Teoria dei circuiti/Circuiti equivalenti di Thevenin e Norton.md",
-    "Teoria dei circuiti/Generatori pilotati.md",
-    "Teoria dei circuiti/Metodo delle prove semplici.md",
-    "data/Pasted image 20240902165354.png",
-    "data/Pasted image 20240902165330.png",
-    "data/Pasted image 20240902165224.png",
-    "Componenti dinamici",
-    "Bipoli compositi"
+    "temp"
   ]
 }
