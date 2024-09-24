@@ -1,0 +1,4 @@
+- Cvičící:
+	- Roman Jelínek: jelinro4@fit.cvut.cz
+- Laboratoř = seminář
+- Cvičení = proseminář
