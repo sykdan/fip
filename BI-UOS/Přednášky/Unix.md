@@ -8,4 +8,4 @@
 	- Berkeley Software Distribution (**BSD**)
 	- System V Release 4
 - Linux až kolem 1991
-- 
+- každý zdroj v systému je **reprezentován souborem**

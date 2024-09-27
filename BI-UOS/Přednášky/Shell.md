@@ -1,9 +1,14 @@
-= interpet příkazů
+- = interpret příkazů
+- běží v **terminálu**  - příkazem `tty` vypsat který soubor mu přináleží
+	- `echo ahoj > /dev/pts/<cislo>` - vypsání do **cizího terminálu**
 # Interpretace příkazů
 - `prikaz` - příkaz
 - `prikaz &` - asynchronní příkaz (na pozadí)
 - `prikaz ; dalsiprikaz` - sekvence příkazů, postupně
 - `prikaz & dalsiprikaz` - sekvence příkazů, postupně, ale pokud nějaký selže, tak se ostatní nespustí
+- `prikaz -p` - **krátký přepínač**
+	- `prikaz -p 40`, `prikaz -p40` - **s parametrem**
+- `prikaz --param` - **dlouhý přepínač** 
 # Proměnné
 - definice proměnných: $
 	- $0 - název programu/skriptu
