@@ -1,0 +1,5 @@
+- součástky provádějící:
+	- součet
+	- násobení konstantou
+	- integraci
+	- 

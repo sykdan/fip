@@ -1,0 +1,8 @@
+- IEEE 754
+	- sign, mantisa, exponent
+- Syntaxe:
+	- `1.25`, `3.1415`
+	- `1e6` -> $1*10^6$
+		- tyto jsou implicitně `double`
+	- `1f`, `2f`, `3l`, `4l` -> float/long double
+- 

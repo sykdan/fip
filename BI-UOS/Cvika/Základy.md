@@ -1,0 +1,9 @@
+- `type` - typ příkazu (vestavěný nebo cesta k souboru v `$PATH`)
+- `man` - pomoc k příkazu (pro vestavěné `help`)
+- `SHIFT+UP/DOWN` - posouvání v terminálu
+- `less` - stránkovač výstupu
+	- použití: `echo "neco" | less` nebo `less <file>`
+	- `/` - vyhledávání (`?` směrem nahoru)
+	- `p/n` - previous/next
+	- `q` - quit
+- `declare -p PATH` - obsah proměnné

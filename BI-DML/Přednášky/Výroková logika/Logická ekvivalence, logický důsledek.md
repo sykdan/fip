@@ -1,0 +1,7 @@
+- Logická ekvivalence - pro všechna ohodnocení jsou pravdivostní hodnoty ekvivalentní
+	- E |=| F platí, když E |= F a F |= E
+	- E |=| F -> $E \Leftrightarrow F$ je tautologie
+- Logický důsledek - pro formule E a F, pro každé E = 1 je i F = 1)
+	- $E \models E$
+	- $E \models F$ a $F \models G$ -> $E \models G$
+	- $E \models F$ ->  $E \Rightarrow F$ je tautologie 

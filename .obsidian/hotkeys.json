@@ -31,5 +31,13 @@
       "key": "M"
     }
   ],
-  "quick-latex:addInlineMath": []
+  "quick-latex:addInlineMath": [],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ]
 }

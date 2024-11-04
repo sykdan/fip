@@ -1,0 +1,4 @@
+- $\emptyset \subset A$ a $A \subset A$ (triviální podmnožiny)
+- $A \subset B$ a $B \subset C$ -> $A \subset C$
+- $A \subset B$ a $B \subset A$ -> $A = B$
+- 

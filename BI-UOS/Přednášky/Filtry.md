@@ -1,0 +1,42 @@
+- transformují stdin a posílají na stdout
+- příklady
+	- grep
+	- wc
+		- spočítat slova, řádky
+	- cut
+		- rozsekání - buď delimiter (přepínače -d, -f), nebo znaky (-c)
+	- tee
+		- uloží soubor a pošle ho na výstup
+	- tr
+		- nahrazení sady znaků jinými znaky
+		- přepínač `-s` - squeeze - nahradit víc výskytů jedním
+			- `echo "a    b  c      d e  f      g" | tr -s " " " "` -> `a b c d e f`
+			- 
+	- nl
+		- očíslování řádek
+	- head 
+		- `head -5` - prvních 5 řádek výstupu
+	- tail
+		- `tail +5` - 5. řádka a vše pod ní
+		- `tail -2` - poslední 2 řádky
+	- paste
+		- nasloupečkování textu
+		- `paste a.txt b.txt c.txt` -> řádky v souborech postupně oddělené tabulátory
+			- `paste -s ...` -> otočení (na první řádce řádky v souboru 1, pak řádky v souboru 2...) 
+		- do testu: **každá N-tá řádka souboru**
+			- `paste -sd'\t\t\n' | cut -f3` -> radka `\t` radka `\t` radka `\n` -> cut umi vytahnout treti sloupec
+	- split
+		- rozdělení souboru (binárně nebo řádkově)
+	- sort
+		- seřazení
+		- `-n` - numericky, `-M` - měsíce
+		- `-r` - reverse, `-u` - pouze unikátní
+	- uniq
+		- seřazený seznam omezí jen na unikátní výsledky + spočítá výskyty
+	- cmp
+		- porovná, jestli jsou soubory odlišné
+		- stejný obsah -> **exit code 0**
+	- comm, diff -> podobné použití
+	- xargs
+		- spustí Nkrát příkaz pro každý argument
+		- `ls /etc/ | xargs -I FILE echo soubor je FILE`

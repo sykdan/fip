@@ -1,0 +1,19 @@
+- soubor vektorů = `VectorN[]`
+	- doslova array vektorů
+- **lineární kombinace** - pronásobíme prvky souboru čísly a sečteme je
+	- **triviální lineární kombinace** -> všechno pronásobíme nulou, součet je $\theta$
+- **lineární závislost**
+	- pokud můžu vzít libovolné N-násobky vektorů, a jejich sečtení mi dává nulový vektor, pak je soubor lineárně závislý
+	- **lineární nezávislost** - soubor je lineárně nezávislý, pokud lze $\theta$ získat **pouze triviální lineární závislostí** (vynásobení všech vektorů nulou)
+	- zjištění lineární závislosti ale není nic jiného než ==vyřešení **[[SLR (Soustava lineárních rovnic)]]**==!
+		- zápis: a \* **x** + b \* **y** + c \* **z** = nulový vektor
+			- x, y, z jsou vektory
+			- a, b, c jsou koeficienty
+		- ==nelíbí se jím, když to hned dáš do matice a zgemuješ==
+	- pozorování:
+		- LZ nezávisí na pořadí vektorů
+		- pokud má soubor dva stejné vektory, je LZ (jeden vynásobím 1, jeden -1,  zbytek nulou -> nulový vektor)
+		- pokud má soubor nulový vektor, je LZ (zbytek násobím nulou, nulový vektor čímkoliv)
+		- soubor vektorů z $R^2$ délky 3 je vždy LZ
+		- soubor vektorů z $R^3$ délky 4 je vždy LZ
+		- -> pokud je vektorů víc, než je "dimenze", je **lineárně závislý**

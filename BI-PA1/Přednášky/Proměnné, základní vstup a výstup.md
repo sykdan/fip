@@ -1,0 +1,7 @@
+- datové typy
+- proměnné
+	- lokální x globální - globální se inicializuje nulama
+- input: scanf
+- output: printf
+- size_t
+- short, long, long long, int, char

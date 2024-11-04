@@ -1,0 +1,1 @@
+množina, která obsahuje  všechny podmnožiny dané množiny

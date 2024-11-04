@@ -10,3 +10,6 @@
 ## Zapojené zdroje napětí
 - **sériově** - sčítá se
 - **zkrat** - napětí má být zároveň 0 ([[Ideální vodič]]) a zároveň U - nelze ![[Pasted image 20240923172516.png]]
+# Efektivní napětí
+- $\frac{U_{max}}{\sqrt{2}}$
+- "průměrné" napětí které by měla mít náhraška AC za DC

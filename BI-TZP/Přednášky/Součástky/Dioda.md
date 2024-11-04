@@ -1,0 +1,17 @@
+- usměrňuje proud
+	- proud propouštěn jedním směrem
+- vydává světlo
+- voltampérová charakteristika - dochází k malým ztrátám
+- LED diodu nemůžeme zapojit jen tak do zdroje napětí, proud by byl obrovský a dojde k probití
+	- přidáme ochranný odpor
+	- ![[Pasted image 20241014170456.png]]
+	- Energie fotonu na LED: $E_{p}= h * v = h \frac{c}{\lambda}$
+	- Elektronu: $E_{e}= e * U$
+		- $E_{e} >= E_p$
+# Použití
+- jednosměrný usměrňovač
+- obousměrný usměrňovač - **Graetzův můstek**
+- optočlen
+	- spojení bipolárního tranzistoru a LED
+	- sepne se, když se na něj posvítí a do báze se pouští proud
+	- -> **galvanické oddělení obvodů** - např. oddělení displeje na automatické pračce od výkonové elektroniky

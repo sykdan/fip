@@ -1,0 +1,7 @@
+- množina = neuspořádaný soubor objektů
+	- zadání:
+		- výčtem prvků
+		- charakterizující vlastností -> $M = \{ x \in U | v(x) \}$
+		- výrazem s charakterizující vlastností
+	- prázdná množina -> $\emptyset$ příp. {} 
+- univerzum - reálná čísla, racionální čísla...

@@ -1,0 +1,15 @@
+- Definice:
+	- $T^n$ - jakékoliv těleso a jakýkoliv rozsah
+	- nechť $T$ je $R$, $Q$, $C$... nebo $Z_p$
+	- Množina n-tic společně se sčítáním po složkách a násobením skalárem nazýváme **vektorovým prostorem**.
+	- prvky VP - **vektory**
+		- píšeme velkými tučnými **latinskými písmeny**
+		- složky píšeme netučně
+	- prvky tělesa $T$ - **skaláry**
+		- píšeme **řeckou abecedou**
+- Axiomy operací:
+	- operace jsou uzavřené, tj. z $T^2$ nevznikne $T^3$
+	- sčítání vektorů je komutativní a asociativní
+	- násobení skalárem je asociativní a distributivní z obou stran
+	- neutrální prvek tělesa $T$ je neutrální i vůči násobení s vektorem
+	- existuje nulový vektor $\theta$, který, když je násoben skalárem, je stále $\theta$

@@ -1,0 +1,14 @@
+- definice:
+	- Mějme [[Soubor vektorů]] $(x_{1}, x_{2}, ..., x_{m})$ z $T^n$
+	- **Lineární obal** je množina všech lineárních kombinací tohoto souboru
+	- značíme: $\langle x_{1}, x_{2}, ..., x_{m}\rangle$  (špičaté závorky!)
+- vlastnosti:
+	- vždycky obsahuje **nulový vektor** (všechny koeficienty nulové -> nulový vektor)
+	- součet dvou vektorů z lineárního obalu je prvkem toho samého obalu (= **uzavřenost na součet dvou vektorů**)
+	- libovolný skalární násobek vektoru z lineárního obalu je prvkem toho samého obalu (= **uzavřenost na násobení vektoru skalárem**)
+	- ==-> každý lineární obal je také **Podprostorem**== ([[Podprostor#Axiomy]])
+	- jednotlivé vektory ze souboru jsou obsaženy ve svém lineárním obalu
+	- je-li vektor již obsažen v lineárním obalu, tak jeho přidáním do souboru se obal nezmění
+	- lineární obal souboru vektorů z lineárního obalu neobsahuje "nic navíc"
+		- když máme podprostor Q a prvky z podprostoru Q, tak lineární obal těchto prvků je podmnožinou Q
+

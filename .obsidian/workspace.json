@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4e68ae3864f42dd2",
+        "id": "c362ce34c31cf5e0",
         "type": "tabs",
         "children": [
           {
-            "id": "d53351028f32f31e",
+            "id": "b6b1458cb7fda6ab",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BI-TZP/Přednášky/Číselné obvody/Číselné obvody.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Číselné obvody"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "File explorer"
             }
           },
           {
@@ -44,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Komutativní",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 257.5026054382324
   },
   "right": {
     "id": "7f2fcc04cc4630a6",
@@ -80,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
@@ -95,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BI-TZP/Přednášky/Číselné obvody/Číselné obvody.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Číselné obvody"
             }
           },
           {
@@ -111,9 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BI-DML/Přednášky/Výroková logika/ÚDNT, ÚKNT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ÚDNT, ÚKNT"
             }
           },
           {
@@ -124,7 +144,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -132,7 +154,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BI-DML/Přednášky/Výroková logika/ÚDNT, ÚKNT.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ÚDNT, ÚKNT"
             }
           },
           {
@@ -140,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ]
@@ -163,54 +191,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d53351028f32f31e",
+  "active": "b6b1458cb7fda6ab",
   "lastOpenFiles": [
+    "BI-TZP/Přednášky/Koncepty",
+    "BI-TZP/Přednášky/Číselné obvody",
+    "BI-TZP/Přednášky/Veličiny",
+    "BI-TZP/Přednášky/Součástky",
+    "BI-TZP/Přednášky/Číselné obvody/Číselné obvody.md",
+    "BI-LA1/Přednášky/Lineární algebra/Dimenze podprostoru.md",
+    "BI-LA1/Přednášky/Lineární algebra/Báze podprostoru.md",
+    "BI-LA1/Obrázky/Pasted image 20241030121428.png",
+    "BI-LA1/Přednášky/Lineární algebra/Lineární obal.md",
+    "BI-LA1/Přednášky/Lineární algebra/Soubor vektorů.md",
+    "BI-LA1/Přednášky/Lineární algebra/Vektorový prostor.md",
+    "BI-LA1/Přednášky/Lineární algebra/Untitled",
+    "BI-LA1/Přednášky/Lineární algebra/Podprostor.md",
+    "BI-DML/Přednášky/Množiny a zobrazení/Vlastnosti množinové inkluze (podmnožiny).md",
+    "BI-DML/Přednášky/Množiny a zobrazení/Potenční množina.md",
+    "BI-DML/Přednášky/Množiny a zobrazení/Naivní teorie množin.md",
+    "BI-DML/Přednášky/Důkazy/Matematická indukce.md",
+    "BI-DML/Přednášky/Množiny a zobrazení",
+    "BI-DML/Obrázky/Pasted image 20241029145359.png",
+    "data",
     "FIT Bakalářské Studium.md",
-    "BI-GIT/Předmět.md",
-    "BI-TZP/Předmět.md",
-    "BI-TZP/Cvika/Mathematica.md",
-    "BI-TZP/Cvika",
-    "BI-LA1/Předmět.md",
-    "BI-LA1/Přednášky/Grupa.md",
-    "BI-LA1/Přednášky/Úvod.md",
-    "Pasted image 20240925105504.png",
-    "BI-LA1/Přednášky",
-    "Skripta.md",
-    "BI-UOS/Předmět.md",
-    "BI-UOS/Přednášky/Shell.md",
-    "BI-UOS/Přednášky/Unix.md",
-    "BI-PA1/Předmět.md",
-    "BI-UOS/Cvika",
+    "BI-UOS/Přednášky/Filtry.md",
+    "BI-DML/Přednášky/Důkazy/Důkaz implikace.md",
+    "BI-DML/Přednášky/Důkazy/Důkaz ekvivalence.md",
     "BI-DML/Předmět.md",
-    "BI-PA1/Cvika, Laborky/Programovací styly.md",
-    "BI-PA1/Cvika, Laborky/Číslicové systémy.md",
-    "BI-PA1/Cvika, Laborky/Euklidův algoritmus.md",
-    "BI-UOS/Přednášky",
-    "BI-UOS",
-    "BI-TZP/Přednášky/Úvod.md",
-    "BI-TZP/Přednášky/Prvky elektrických obvodů.md",
-    "BI-TZP/Přednášky/Proud.md",
-    "BI-TZP/Přednášky/Napětí.md",
-    "BI-TZP/Přednášky/Ideální vodič.md",
-    "BI-TZP/Obrázky/Prvky značení.png",
-    "BI-TZP/Obrázky/Prvky vzorečky.png",
-    "BI-TZP/Obrázky/Pasted image 20240923173211.png",
-    "BI-TZP/Obrázky/Pasted image 20240923172516.png",
-    "BI-TZP/Obrázky/Pasted image 20240923171819.png",
-    "BI-TZP/Obrázky/Moorův zákon.png",
-    "BI-TZP/Obrázky/Ideální vodič.png",
-    "BI-TZP/Přednášky",
-    "BI-TZP/Obrázky",
-    "BI-TZP",
-    "BI-PA1/Přednášky/Algoritmus.md",
-    "BI-PA1/Přednášky",
-    "BI-LA1",
-    "BI-DML/Přednášky/Logické spojky (operace).md",
-    "BI-DML/Přednášky/Tautologie, kontradikce, splnitelnost.md",
-    "BI-DML/Přednášky/Logická ekvivalence, logický důsledek.md",
-    "BI-DML/Obrázky/Pasted image 20240924151639.png",
-    "BI-DML/Obrázky/Pasted image 20240924145330.png",
-    "BI-DML/Přednášky/Výroková logika.md",
+    "BI-LA1/Přednášky/Maticový počet/Matice.md",
+    "BI-TZP/Přednášky/Veličiny/Napětí.md",
+    "BI-DML/Obrázky/Pasted image 20241015151415.png",
+    "BI-DML/Přednášky/Predikátová logika/Kvantifikátory.md",
+    "BI-DML/Přednášky/Důkazy",
+    "BI-DML/Obrázky/Pasted image 20241022144015.png",
+    "BI-DML/Přednášky/Výroková logika/ÚDNT, ÚKNT.md",
+    "BI-DML/Přednášky/Výroková logika/DNT, KNT.md",
+    "BI-DML/Přednášky/Výroková logika/Logická ekvivalence, logický důsledek.md",
+    "BI-DML/Obrázky/Pasted image 20241022124951.png",
+    "BI-DML/Přednášky/Výroková logika/Zákony výrokové logiky.md",
+    "BI-DML/Přednášky/Výroková logika/Logické spojky (operace).md",
+    "BI-DML/Přednášky/Výroková logika/Tautologie, kontradikce, splnitelnost.md",
+    "BI-DML/Obrázky/Pasted image 20241022124730.png",
+    "BI-DML/Obrázky/Pasted image 20241022124531.png",
+    "BI-LA1/Obrázky/Pasted image 20241021173001.png",
+    "BI-TZP/Obrázky/Pasted image 20241021170813.png",
+    "BI-TZP/Obrázky/Pasted image 20241021164733.png",
+    "BI-DML/Přednášky/Obrázky",
+    "BI-LA1/Přednášky/Lineární algebra",
+    "BI-LA1/Přednášky/Maticový počet",
     "Untitled.canvas"
   ]
 }

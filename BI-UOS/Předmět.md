@@ -1,4 +1,6 @@
 # https://courses.fit.cvut.cz/BI-UOS/index.html
+# https://learnshell.fit.cvut.cz/me
+# https://iga.ksi.fit.cvut.cz/bi-uos
 # Hodnocení
 - Body:
 	- **před každým cvikem** - mini test
